@@ -1,4 +1,4 @@
 module.exports =
-  Emitter: require './eventry'
+  Emitter: require './emitter'
   Disposable: require './disposable'
   CompositeDisposable: require './composite-disposable'
