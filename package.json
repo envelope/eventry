@@ -7,6 +7,10 @@
     "prepublish": "grunt clean lint coffee",
     "test": "grunt test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/envelope/eventry.git"
+  },
   "license": [
     {
       "type": "MIT",
