@@ -1,0 +1,6 @@
+spec
+src
+*.coffee
+.coffee
+.npmignore
+.DS_Store

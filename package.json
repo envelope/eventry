@@ -1,0 +1,26 @@
+{
+  "name": "eventry",
+  "version": "0.5.0",
+  "description": "Simple event library",
+  "main": "./lib/eventry",
+  "scripts": {
+    "prepublish": "grunt clean lint coffee",
+    "test": "grunt test"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/atom/event-kit/raw/master/LICENSE.md"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "jasmine-node": "^1.14.5",
+    "grunt-shell": "^1.1.1",
+    "coffeelint": "^1.8.1",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-contrib-clean": "^0.6.0"
+  }
+}
